@@ -7,7 +7,6 @@ module.exports = [
     description:
       "A crisp and refreshing American Pale Ale with a balanced hop profile.",
     image_url: "https://example.com/images/pale_ale.jpg",
-    notes: "Great for a hot summer day.",
     created_by: "John Doe",
     volume: {
       value: 20,
@@ -59,7 +58,6 @@ module.exports = [
             unit: "grams",
           },
           add: "start",
-          attribute: "bitter",
         },
         {
           name: "Cascade",
@@ -68,7 +66,6 @@ module.exports = [
             unit: "grams",
           },
           add: "end",
-          attribute: "flavour",
         },
       ],
       yeast: "American Ale",
@@ -130,7 +127,6 @@ module.exports = [
           name: "Fuggles",
           amount: { value: 40, unit: "grams" },
           add: "start",
-          attribute: "bitter",
         },
         {
           name: "East Kent Goldings",
@@ -139,7 +135,6 @@ module.exports = [
             unit: "grams",
           },
           add: "end",
-          attribute: "flavour",
         },
       ],
       yeast: "Irish Ale",
@@ -205,7 +200,6 @@ module.exports = [
             unit: "grams",
           },
           add: "start",
-          attribute: "bitter",
         },
         {
           name: "Simcoe",
@@ -214,7 +208,6 @@ module.exports = [
             unit: "grams",
           },
           add: "middle",
-          attribute: "flavour",
         },
         {
           name: "Amarillo",
@@ -223,7 +216,6 @@ module.exports = [
             unit: "grams",
           },
           add: "end",
-          attribute: "flavour",
         },
       ],
       yeast: "California Ale",
@@ -237,7 +229,8 @@ module.exports = [
     description:
       "A strong and complex Belgian-style ale with fruity and spicy notes.",
     image_url: "https://example.com/images/belgian_tripel.jpg",
-    notes: "A slow sipper for a relaxing evening.",
+    notes:
+      "Aim for a high attenuation to achieve a dry finish, which is crucial for the style, by carefully managing fermentation temperatures, starting on the lower end and gradually raising the temperature as fermentation progresses.",
     created_by: "Bob Brown",
     volume: {
       value: 20,
@@ -296,7 +289,6 @@ module.exports = [
             unit: "grams",
           },
           add: "start",
-          attribute: "bitter",
         },
         {
           name: "Saaz",
@@ -305,7 +297,6 @@ module.exports = [
             unit: "grams",
           },
           add: "middle",
-          attribute: "flavour",
         },
         {
           name: "Tettnang",
@@ -314,7 +305,6 @@ module.exports = [
             unit: "grams",
           },
           add: "end",
-          attribute: "flavour",
         },
       ],
       yeast: "Belgian Abbey",
@@ -387,7 +377,6 @@ module.exports = [
             unit: "grams",
           },
           add: "start",
-          attribute: "bitter",
         },
         {
           name: "Simcoe",
@@ -396,7 +385,6 @@ module.exports = [
             unit: "grams",
           },
           add: "middle",
-          attribute: "flavour",
         },
         {
           name: "Citra",
@@ -405,7 +393,6 @@ module.exports = [
             unit: "grams",
           },
           add: "end",
-          attribute: "flavour",
         },
         {
           name: "Mosaic",
@@ -414,7 +401,6 @@ module.exports = [
             unit: "grams",
           },
           add: "dry hop",
-          attribute: "aroma",
         },
       ],
       yeast: "California Ale",
@@ -480,7 +466,6 @@ module.exports = [
             unit: "grams",
           },
           add: "start",
-          attribute: "bitter",
         },
         {
           name: "Cascade",
@@ -489,7 +474,6 @@ module.exports = [
             unit: "grams",
           },
           add: "middle",
-          attribute: "flavour",
         },
         {
           name: "Cascade",
@@ -498,7 +482,6 @@ module.exports = [
             unit: "grams",
           },
           add: "end",
-          attribute: "aroma",
         },
       ],
       yeast: "American Ale",
@@ -512,7 +495,6 @@ module.exports = [
     description:
       "A traditional English Bitter with a malty backbone and earthy hop character.",
     image_url: "https://example.com/images/english_bitter.jpg",
-    notes: "A classic session beer.",
     created_by: "Eva Green",
     volume: {
       value: 20,
@@ -571,7 +553,6 @@ module.exports = [
             unit: "grams",
           },
           add: "start",
-          attribute: "bitter",
         },
         {
           name: "Fuggles",
@@ -580,7 +561,6 @@ module.exports = [
             unit: "grams",
           },
           add: "middle",
-          attribute: "flavour",
         },
         {
           name: "Cascade",
@@ -589,7 +569,6 @@ module.exports = [
             unit: "grams",
           },
           add: "end",
-          attribute: "aroma",
         },
       ],
       yeast: "English Ale",

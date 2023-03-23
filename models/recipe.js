@@ -52,19 +52,30 @@ const recipeSchema = mongoose.Schema({
   ingredients: {
     malt: [
       {
-        name: String,
+        name: {
+          type: String,
+          required: true,
+        },
         amount: amountSchema,
       },
     ],
     hops: [
       {
-        name: String,
+        name: {
+          type: String,
+          required: true,
+        },
         amount: amountSchema,
-        add: String,
-        attribute: String,
+        add: {
+          type: String,
+          required: true,
+        },
       },
     ],
-    yeast: String,
+    yeast: {
+      type: String,
+      required: true,
+    },
   },
 });
 
