@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 //interact with DB by calling methods on this model
-const Recipe = require("../models/recipe");
+const Recipe = require("../models/recipeSchema");
 
 //TODO seperate functionality to controller
 //TODO Error handling
