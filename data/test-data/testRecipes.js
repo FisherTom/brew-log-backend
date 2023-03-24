@@ -1,6 +1,7 @@
 module.exports = [
   {
-    name: "Pale Ale",
+    name: "Pale stale and Ale",
+    style: "Pale Ale",
     abv: 5.5,
     target_fg: 1012,
     target_og: 1046,
@@ -72,13 +73,14 @@ module.exports = [
     },
   },
   {
-    name: "Stout",
+    name: "The Big Kahuna",
+    style: "Stout",
     abv: 6.0,
     target_fg: 1016,
     target_og: 1050,
     description: "A rich and roasty stout with chocolate and coffee notes.",
     image_url: "https://example.com/images/stout.jpg",
-    notes: "Perfect for a winter evening.",
+    notes: "Try adding some coffee or cacao nibs to enhance the flavour.",
     created_by: "Jane Smith",
     volume: {
       value: 20,
@@ -96,6 +98,13 @@ module.exports = [
             unit: "celsius",
           },
           duration: 60,
+        },
+        {
+          temp: {
+            value: 75,
+            unit: "celsius",
+          },
+          duration: 15,
         },
       ],
       fermentation: {
@@ -141,7 +150,8 @@ module.exports = [
     },
   },
   {
-    name: "IPA",
+    name: "Hopocalypse Now",
+    style: "IPA",
     abv: 6.5,
     target_fg: 1010,
     target_og: 1060,
@@ -222,7 +232,8 @@ module.exports = [
     },
   },
   {
-    name: "Belgian Tripel",
+    name: "Trappist Treasure",
+    style: "Belgian Tripel",
     abv: 9.0,
     target_fg: 1008,
     target_og: 1080,
@@ -244,10 +255,24 @@ module.exports = [
       mash_temp: [
         {
           temp: {
+            value: 64,
+            unit: "celsius",
+          },
+          duration: 30,
+        },
+        {
+          temp: {
             value: 66,
             unit: "celsius",
           },
-          duration: 90,
+          duration: 30,
+        },
+        {
+          temp: {
+            value: 68,
+            unit: "celsius",
+          },
+          duration: 30,
         },
       ],
       fermentation: {
@@ -311,14 +336,16 @@ module.exports = [
     },
   },
   {
-    name: "Double IPA",
+    name: "Pulp Friction",
+    style: "Double IPA",
     abv: 8.5,
     target_fg: 1010,
     target_og: 1075,
     description:
       "An intensely hoppy and bitter double IPA with a solid malt backbone.",
     image_url: "https://example.com/images/double_ipa.jpg",
-    notes: "Hop lover's delight.",
+    notes:
+      "Make sure to wait untill fermentation has finished before adding your dry hops to get the best flavour.",
     created_by: "Carol White",
     volume: {
       value: 20,
@@ -336,6 +363,13 @@ module.exports = [
             unit: "celsius",
           },
           duration: 60,
+        },
+        {
+          temp: {
+            value: 75,
+            unit: "celsius",
+          },
+          duration: 10,
         },
       ],
       fermentation: {
@@ -407,14 +441,16 @@ module.exports = [
     },
   },
   {
-    name: "American Pale Ale",
+    name: "Route 66",
+    style: "American Pale Ale",
     abv: 5.5,
     target_fg: 1012,
     target_og: 1050,
     description:
       "A well-balanced and hoppy American Pale Ale with citrus and floral notes.",
     image_url: "https://example.com/images/american_pale_ale.jpg",
-    notes: "A refreshing and easy-drinking beer.",
+    notes:
+      "You can adjust the recipe by adding some rye malt. Do not over hop this should be an easy drinking style.",
     created_by: "David Smith",
     volume: {
       value: 20,
@@ -488,7 +524,8 @@ module.exports = [
     },
   },
   {
-    name: "English Bitter",
+    name: "Nutty Professor",
+    style: "English Bitter",
     abv: 4.5,
     target_fg: 1010,
     target_og: 1040,
