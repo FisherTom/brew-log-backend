@@ -17,7 +17,13 @@ dbConnect();
 
 //routes middleware
 const recipesRoute = require("./routes/recipes");
+const hopsRoute = require("./routes/hops");
+const maltsRoute = require("./routes/malts");
 app.use("/recipes", recipesRoute);
+
+app.use("/hops", hopsRoute);
+
+app.use("/malts", maltsRoute);
 
 //once connected start listening to the server
 mongoose.connection.once("open", () => {
