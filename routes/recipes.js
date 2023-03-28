@@ -32,8 +32,7 @@ router.get("/:id", (req, res) => {
 //create one
 router.post("/", (req, res) => {
   const recipe = new Recipe({
-    name: req.body.name,
-    abv: req.body.abv,
+    ...req.body,
   });
   recipe
     .save()
